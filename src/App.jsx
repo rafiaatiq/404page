@@ -1,6 +1,6 @@
 import './App.css'
-import Background from './components/background'
-import Cursor from './components/Cursor';
+import Background from './components/Background'
+
 
 
 function App() {
