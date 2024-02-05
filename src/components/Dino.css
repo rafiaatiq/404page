@@ -1,0 +1,62 @@
+  .game {
+    width: 600px;
+    height: 150px;
+    border-bottom: 1px solid black;
+    /* margin: auto; */ 
+  }
+  
+    
+  #dino {
+    width: 65px;
+    height: 70px;
+    background-image: url(../assets/trex.png);
+    background-size: 70px 70px;
+    position: relative;
+    top: 80px;
+  }
+  
+  .jump {
+    animation: jump 0.3s linear;
+  }
+  
+@keyframes jump {
+  0% {
+    top: 80px; /* Initial position of the dinosaur */
+  }
+
+  25% {
+    top: -10px; /* Peak height of the jump */
+  }
+
+  50% {
+    top: 70px; /* Return to original height */
+  }
+
+  100% {
+    top: 80px; /* Ensure the final position matches the initial */
+  }
+}
+
+#cactus {
+  width: 45px;
+  height: 60px;
+  position: relative;
+  top: 20px;
+  left: 580px;
+
+  background-image: url("../assets/cactus.png");
+  background-size: 40px 60px;
+
+  animation: block 1s infinite linear;
+}
+  
+  
+  @keyframes block {
+    0% {
+      left: 580px;
+    }
+  
+    100% {
+      left: -20px;
+    }
+  }

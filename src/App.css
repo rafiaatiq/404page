@@ -1,0 +1,8 @@
+*{
+    font-family: 'Arvo', serif;
+    font-family: 'Open Sans', sans-serif;
+    /* cursor: none; */
+}
+.text-shadow{
+    text-shadow: 15px 5px 5px rgb(174, 174, 174)
+}
